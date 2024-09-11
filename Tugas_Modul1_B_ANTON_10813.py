@@ -1,13 +1,9 @@
 import streamlit as st
-import pandas as pd
 import pickle
 import os
 
-# Load model
-model_directory = r'D:\KULIAH INFORMATIKA\SEMESTER 9\PMDPM\Pertemuan 2\Tugas_B_10813'  # Change this to the path where your model file is located
-
 # Use os.path.join() to combine the directory and model file name
-model_path = os.path.join(model_directory, 'rf_diabetes_model.pkl')
+model_path = 'rf_diabetes_model.pkl'
 
 # Check if the file exists in the specified directory
 if os.path.exists(model_path):
