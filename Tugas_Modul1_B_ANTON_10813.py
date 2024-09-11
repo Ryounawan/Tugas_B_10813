@@ -17,7 +17,7 @@ if os.path.exists(model_path):
         # Streamlit App
         st.title("Prediksi Diabetes")
 
-        st.write("Aplikasi ini digunakan untuk membantu memprediksi penyakit diabetes pada seseorang")
+        st.write("Aplikasi ini digunakan untuk membantu memprediksi penyakit diabetes pada manusia")
         
         pregnancies = st.slider("Pregnancies", min_value=0, max_value=17, step=1)
         glucose = st.slider("Glucose (mg/dL)", min_value=0.0, max_value=199.0, step=0.1)
